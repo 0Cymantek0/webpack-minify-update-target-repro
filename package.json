@@ -1,0 +1,11 @@
+{
+  "name": "webpack-minify-update-target-repro",
+  "private": true,
+  "scripts": {
+    "build": "node build.cjs",
+    "run:bundle": "node dist/main.mjs"
+  },
+  "devDependencies": {
+    "webpack": "https://pkg.pr.new/webpack/webpack@058beeea2f"
+  }
+}
